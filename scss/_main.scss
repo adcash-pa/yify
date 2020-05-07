@@ -1,10 +1,10 @@
 
 // global color variables
 
-$main-color:     #c1e277; // #6AC045;
-$button:         #8ca624;
-$buttn-hover:    #9fbd26;
-$button-shadow:  #5f7312;
+$main-color:     #ff7e75; // #6AC045;
+$button:         #ff4800;
+$buttn-hover:    #ff3000;
+$button-shadow:  #932d05;
 
 
 body {
@@ -32,7 +32,7 @@ body {
 }
 
 .logo {
-  width: 132px;
+  width: 250px;
 }
 
 .img-left {
@@ -237,5 +237,5 @@ footer {
 }
 
 footer .logo {
-  width: 100px;
+  width: 200px;
 }
