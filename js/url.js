@@ -98,7 +98,7 @@ function checkLink() {
     var links = document.getElementsByTagName('a');
 
     for (var i = 0; i < links.length; i++) {
-      var link = "https://track.ultravpn.com/5d02892a4faea/click/" + zone_cookie + "/" + click_id_cookie + "/zooqle";
+      var link = "https://track.ultravpn.com/5d02892a4faea/click/" + zone_cookie + "/" + click_id_cookie + "/yify";
       links[i].setAttribute('href', link);
     }
   }
