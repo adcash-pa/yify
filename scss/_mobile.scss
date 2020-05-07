@@ -1,0 +1,68 @@
+// 1200px
+// @media screen and (max-width: 75em) {
+//   .container {
+//     padding: 0 24px;
+//   }
+// }
+
+.hide-xl {
+  display: none;
+}
+
+.hide-sm {
+  display: inline;
+}
+
+// 960px
+@media screen and (max-width: 60em) {
+  .banner {
+    height: 100%;
+    padding: 36px 0;
+    font-size: 18px;
+  }
+}
+
+// sm-568px
+@media screen and (max-width: 35.5em) {
+  .logo {
+    width: 256px;
+  }
+
+  .hide-xl {
+    display: inline;
+  }
+
+  .hide-sm {
+    display: none;
+  }
+
+  .top-bar img {
+    width: 72px;
+    margin-top: 2px;
+  }
+
+  .container {
+    padding: 0 24px;
+  }
+
+  .banner .pure-button, .button-xlarge {
+    font-size: 16px;
+  }
+
+  .benefits img {
+    margin: 48px 0 0 24px;
+  }
+
+  .benefits p, .benefits h3 {
+    padding: 0 24px;
+  }
+
+  .img-left, .img-right, .img-right-table   {
+    max-width: 100%;
+    padding: 36px 0 0 0;
+  }
+
+  h2 {
+    margin: 0.5em 0 0.2em 0;
+  }
+}

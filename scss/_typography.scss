@@ -1,0 +1,55 @@
+
+html, pure-g, .pure-g [class*="pure-u"] {
+  font-family: 'Sen', sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.3em 0;
+}
+
+
+h2 {
+  font-size: 36px;
+  font-weight: 800;
+  margin: 0 0 0.2em 0;
+  letter-spacing: -1px;
+  text-transform: capitalize;
+  line-height: 1.3;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 800;
+  margin: 0.5em 0 0.2em 0;
+  letter-spacing: -1px;
+  text-transform: capitalize;
+  line-height: 1.3;
+}
+
+.user-data-table p {
+  font-size: 24px;
+  color: #828282;
+}
+
+.banner p {
+  line-height: 1.3;
+}
+
+p {
+  line-height: 1.6;
+}
+
+b {
+  font-weight: 800;
+}
+
+// text align classes
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}
